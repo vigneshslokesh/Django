@@ -1,0 +1,30 @@
+div {
+    width: 90%;
+    max-width: 600px;
+    margin: 2rem auto;
+    background-color: rgba(255, 255, 255, 0.484);
+    padding: 2rem;
+    border-radius: 30px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+
+h1{
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+    color: aliceblue;
+    text-transform: uppercase;
+    margin-top: 2rem;
+}
+
+h2{
+    margin: 1rem 0;
+    font-size: 3rem;
+    color: aliceblue;
+    text-align: center;
+}
+
+.fallback{
+    text-align: center;
+    color: brown;
+}
