@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+{% block page_title %}
+My Blog Page
+{% endblock %}
+{% block css_file %}
+<link rel="stylesheet" href="{%static "blog/index.css"%}">
+{% endblock  %}
+
+{% block content %}
+<header id="main-navigation">
+    <h1><a href="">Vignesh' Blog</a></h1>
+    <nav>
+        <a href="">All Posts</a>
+    </nav>
+</header>
+<section id="welcome">
+    <header>
+        <img src="" alt="Tech - Which is gonna change the world">
+        <h2>VIGNESH'S BLOG</h2>
+    </header>
+    <p>Hi, I am Vignesh and I love to blog about tech and travel!</p>
+</section>
+
+<section id="latest-posts">
+    <h2>My Latest Thoughts</h2>
+    <ul>
+        <li>
+            <article class="post">
+                <a href="">
+                    <img src="" alt="Mountain Hiking">
+                    <div class="post__content">
+                        <h3>Mountain Hiking</h3>
+                        <p>There is nothing like the view you get when hiking in the mountains! And I wasn't even prepared for what happenend whie i was enjoying the view.</p>
+                    </div>
+            </article>
+        </li>
+    </ul>
+</section>
+
+<section id="about">
+    <h2>What I Do</h2>
+    <p>I love programming, I love to help others and I enjoy exploring new technologies and new places.</p>
+    <p>My goalis to keep growing as a developer - and contribute something which will be helpful for the society!</p>
+</section>
+
+{% endblock %}
